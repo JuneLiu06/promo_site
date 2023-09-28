@@ -1,0 +1,90 @@
+body {
+    background-image: url("Snowboard.jpg");
+    color: #000;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    /* 可以根据需要调整间距 */
+}
+
+.item {
+    border: 2px solid rgba(255, 255, 255, 0.504);
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+    /* background-size: cover;
+    background-position: center; */
+}
+
+
+
+.item p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold
+}
+.item img {
+    width: 200px; /* 设置图片宽度，根据需要调整 */
+    height: auto; /* 保持纵横比，高度自动计算 */
+    display: block; /* 去除默认的图片下方间距 */
+    margin: 0 auto; /* 居中图片 */
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: hsl(0, 8%, 3%);
+    font-size: 30px;
+}
+
+/* p{
+    font-family:  bold;
+} */
+
+
+
+#bottomPara {
+    font-weight: bold;
+    color: #ff0072;
+}
+
+.firstLine {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.topParas {
+    border-radius: 5%;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#specialWord {
+    font-weight: bold;
+
+}
+
+.highlighter {
+    color: #000;
+    background-color: #ff0072;
+}
+
+/* .otherCloass{
+    color: #daaadn;
+
+} */
